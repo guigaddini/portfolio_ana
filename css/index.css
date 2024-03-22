@@ -3,8 +3,20 @@
     background-color: #F5EFDD;
 }
 
+header h1, h2{
+text-align: center;
+}
+
+#lang img {
+display: inline-flex;
+align-items: center;
+justify-content:right;
+width: 18px;
+height: auto;
+}
+
 h1 {
-    font-family: 'Poppins';
+    font-family: 'Poppins-bold';
     font-weight: bold;
     font-size: 60px;
     line-height: 1.1;
@@ -17,15 +29,33 @@ h2 {
 }
 
 nav {
-    font-family: Montserrat;
-    font-size: 24px;
-    color: #c13c20;
+    font-family: Poppins-bold;
+    font-size: 43px;
+    line-height: 66px;
+    color: #FFFFFF;
 }
 
-img.star {
-    width: 125px;
-    height: 124px;
-    margin: 57px 520px 0 390px;
-    object-fit: contain;
+nav div {
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    background-color: #c13c20;
+    text-align: center;
+}
+
+footer p {
+    font-family: Poppins-bold;
+    font-size: 60px;
+    color: #FFFFFF;
+
+}
+
+footer a {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #FFFFFF;
 
 }
