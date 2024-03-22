@@ -1,0 +1,31 @@
+:root {
+    color: #C13C20;
+    background-color: #F5EFDD;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1.1;
+}
+
+h2 {
+    font-family: Roboto;
+    line-height: 1.38;
+    color: #ec7936;
+}
+
+nav {
+    font-family: Montserrat;
+    font-size: 24px;
+    color: #c13c20;
+}
+
+img.star {
+    width: 125px;
+    height: 124px;
+    margin: 57px 520px 0 390px;
+    object-fit: contain;
+
+}
