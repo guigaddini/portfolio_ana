@@ -7,14 +7,9 @@
     <title>ana flávia cáceres</title>
 
     <link rel="stylesheet" href="/css/reset.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
-
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto&family=Montserrat&display=swap">
+    <link rel="stylesheet" href="/css/index.css">    
 
 </head>
 
@@ -23,11 +18,14 @@
     <header>
         <!-- Languages -->
         
-            <div id="lang">
+        <div id="lang" class="wrapper">
+            <a href="link_para_portugues">
                 <img src="/assets/pt-br.png" alt="português">
+            </a>
+            <a href="link_para_ingles">
                 <img src="/assets/en-us.png" alt="inglês">
-            </div>
-        
+            </a>
+        </div>     
 
 
         <h1>ana flávia cáceres</h1>
@@ -35,22 +33,25 @@
      </header>
 
     <!-- Menu -->
-    <nav>
-        <div>
-            <img src="/assets/botao_portfolio.png" id="button_portfolio"  alt="portfolio">
-            <a ref="">portfólio</a>
+   <nav>
+        <div id="buttons_container" class="button-container">
+            <a href="portfolio.html" id="port" class="button" target="_blank">
+                <img src="/assets/botao_portfolio.png" alt="portfólio">
+                <span>portfólio</span>
+            </a>
+            <a href="portfolio.html" id="port" class="button" target="_blank">
+                <img src="/assets/botao_lojinha.png" alt="lojinha">
+                <span>lojinha</span>
+            </a>
         </div>
-        
-        <div>
-            <img src="/assets/botao_lojinha.png" id="button_portfolio" alt="lojinha">
-            <a ref="">lojinha</a>
-        </div>
-    </nav>
+    </nav> 
+    
 
     <footer>
-        <p ref="">contato</p>
-        <a>trocarideia@sitedana.com</a>
+        <p>contato</p>
+        <a href="mailto:trocarideia@sitedana.com">trocarideia@sitedana.com</a>
     </footer>
+    
 
 </body>
 </html>

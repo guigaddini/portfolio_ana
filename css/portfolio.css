@@ -3,8 +3,43 @@
     background-color: #F5EFDD;
 }
 
+header h1, h2 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav a {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 2.75;
+    text-align: left;
+    margin-right: 17px;
+    color: #c13c20;
+}
+
+#star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
 #lang img {
-    width: 18px;
+    width: 20px;
     height: auto;
 }
 
@@ -21,14 +56,7 @@ h2 {
     color: #ec7936;
 }
 
-nav a {
-    font-family: Montserrat;
-    font-size: 18px;
-    line-height: 2.75;
-    text-align: left;
-    margin-right: 17px;
-    color: #c13c20;
-}
+
 
 footer {
     background-color: #c13c20;

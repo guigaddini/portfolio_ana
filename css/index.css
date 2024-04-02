@@ -3,16 +3,61 @@
     background-color: #F5EFDD;
 }
 
-header h1, h2{
-text-align: center;
+header h1, h2 {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 #lang img {
-display: inline-flex;
-align-items: center;
-justify-content:right;
-width: 18px;
-height: auto;
+    width: 20px;
+    height: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+    text-align: center; 
+    width: 200px; 
+    height: auto;
+}
+
+.button img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.button span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(1.01);
 }
 
 h1 {
@@ -42,20 +87,24 @@ nav div {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #c13c20;
     text-align: center;
+    padding: 20px 0;
+    color: #FFFFFF;
+    line-height: 1.2;
 }
 
 footer p {
     font-family: Poppins-bold;
     font-size: 60px;
     color: #FFFFFF;
-
 }
 
 footer a {
     font-family: Roboto;
     font-size: 16px;
     color: #FFFFFF;
-
 }
