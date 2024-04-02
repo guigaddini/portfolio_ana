@@ -27,6 +27,11 @@ nav a {
     align-items: center;
 }
 
+#star img {
+    width: 50px;
+    height: auto;
+}
+
 .wrapper {
     display: flex;
     position: absolute;
@@ -56,28 +61,25 @@ h2 {
     color: #ec7936;
 }
 
-
-
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #c13c20;
-    text-align:center;
-}
-
-footer a {
-    font-family: Roboto;
-    font-size: 16px;
+    text-align: center;
+    padding: 20px 0;
     color: #FFFFFF;
-
+    line-height: 1.2;
 }
 
 footer p {
     font-family: Poppins-bold;
     font-size: 60px;
     color: #FFFFFF;
-
 }
 
-#star img {
-    width: 50px;
-    height: auto;
+footer a {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #FFFFFF;
 }
